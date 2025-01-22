@@ -142,6 +142,13 @@ const config: Config = {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
+    // 新增
+    algolia: {
+      appId: 'O9QSL985BS',// Application ID
+      apiKey: 'ceb5366064b8fbf70959827cf9f69227',// Search-Only API Key
+      indexName: 'ionicframework',// index_name
+      contextualSearch: true,
+    },
   } satisfies Preset.ThemeConfig,
 };
 
