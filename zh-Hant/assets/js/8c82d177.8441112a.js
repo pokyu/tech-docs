@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktech_docs=self.webpackChunktech_docs||[]).push([[4989],{4686:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/tech-docs/zh-Hant/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
