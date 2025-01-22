@@ -29,12 +29,12 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'ja', 'zh-Hant', 'zh-hans'],
+    locales: ['en', 'zh-hans','zh-Hant' ],
     localeConfigs: {
       en: { label: 'English' },
+      "zh-Hant": { label: '繁体中文' },
+      "zh-hans": { label: '简体中文' },
       ja: { label: '日本語' },
-      // zh-Hant: { label: '繁体中文' },
-      // zh-hans: { label: '简体中文' },
     },
   },
 
@@ -89,13 +89,28 @@ const config: Config = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          type: 'html',
           position: 'right',
+          value: '<div class="separator" aria-hidden></div>',
         },
         {
           type: 'localeDropdown',
-          position: 'left',
+          position: 'right',
+          dropdownItemsBefore: [],
+          dropdownItemsAfter: [
+            {
+              href: 'https://ionicframework.com/translate',
+              label: 'Translate',
+              target: '_blank',
+              rel: null,
+            },
+          ],
+          className: 'icon-link language navbar__item',
+        },
+        {
+          href: 'https://github.com/facebook/docusaurus',
+          label: 'GitHub',
+          position: 'right',
         },
       ],
     },
