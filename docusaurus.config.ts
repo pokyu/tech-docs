@@ -73,7 +73,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site1',
+      title: 'Technology Docs',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -95,6 +95,7 @@ const config: Config = {
     },
     footer: {
       style: 'dark',
+      /*
       links: [
         {
           title: 'Docs',
@@ -136,7 +137,8 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      */
+      copyright: `Copyright © ${new Date().getFullYear()} Lucas's Technology Docs. `,
     },
     prism: {
       theme: prismThemes.github,
