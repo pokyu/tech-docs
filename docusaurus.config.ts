@@ -87,17 +87,17 @@ const config: Config = {
           label: 'Guide',
           position: 'left',
         },
-        {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar1',
-          position: 'left',
-          label: 'Tutorial1',
-        },
+        // {
+        //   type: 'docSidebar',
+        //   sidebarId: 'tutorialSidebar1',
+        //   position: 'left',
+        //   label: 'Tutorial1',
+        // },
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Tutorial1',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
