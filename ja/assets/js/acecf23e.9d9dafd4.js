@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktech_docs=self.webpackChunktech_docs||[]).push([[1903],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/tech-docs/ja/blog","blogTitle":"Blog","authorsListPath":"/tech-docs/ja/blog/authors"}')}}]);
