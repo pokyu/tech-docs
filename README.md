@@ -1,5 +1,11 @@
 # Website
 
+### Deployment
+
+```
+$ GIT_USER=Pokyu yarn deploy
+```
+---
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
 ### Installation
