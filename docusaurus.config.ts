@@ -82,6 +82,12 @@ const config: Config = {
       },
       items: [
         {
+          type: 'doc',
+          docId: 'index',
+          label: 'Guide',
+          position: 'left',
+        },
+        {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
