@@ -2,6 +2,15 @@
 sidebar_position: 3
 ---
 
-# test
+<head>
+  <html className="some-extra-html-class" />
+  <body className="other-extra-body-class" />
+  <title>Head Metadata customized title!</title>
+  <meta charSet="utf-8" />
+  <meta name="twitter:card" content="summary" />
+  <link rel="canonical" href="https://docusaurus.io/docs/markdown-features/head-metadata" />
+</head>
 
-Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...
+# Head Metadata
+
+My text
