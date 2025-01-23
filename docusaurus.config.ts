@@ -81,12 +81,6 @@ const config: Config = {
         src: 'img/logo.svg',
       },
       items: [
-        {
-          type: 'doc',
-          docId: 'index',
-          label: 'Guide',
-          position: 'left',
-        },
         // {
         //   type: 'docSidebar',
         //   sidebarId: 'tutorialSidebar1',
