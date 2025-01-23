@@ -1,9 +1,6 @@
 {
-    // 需要替换
     "index_name": "ionicframework",
-    // 需要替换。网站网址
     "start_urls": ["https://www.sosobase.com/tech-docs"],
-    // 需要替换。sitemap的网址，docusaurus 默认在根目录下生成 sitemap.xml
     "sitemap_urls": ["https://www.sosobase.com/tech-docs/sitemap.xml"],
     "selectors": {
       "lvl0": {
